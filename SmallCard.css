@@ -1,0 +1,55 @@
+  .small-card h3 {
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .small-card p {
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .small-card:hover {
+    transform: scale(1.3);
+  }
+  
+  .small-card.current {
+    transform: scale(0.5);
+  }
+  
+  .small-card:nth-child(1) {
+    top: 50%;
+    left: 0;
+  }
+  
+  .small-card:nth-child(2) {
+    top: 20%;
+    left: 20%;
+  }
+  
+  .small-card:nth-child(3) {
+    top: 0;
+    left: 50%;
+  }
+  
+  .small-card:nth-child(4) {
+    top: 20%;
+    right: 20%;
+  }
+  
+  .small-card:nth-child(5) {
+    top: 50%;
+    right: 0;
+  }
+  
+  .small-card:nth-child(6){
+  top: 20%;
+  right: 20%;
+}
+.small-card:nth-child(7) {
+    top: 50%;
+    right: 0;
+  }
+  .small-card:nth-child(6){
+    top: 20%;
+    right: 20%;
+  }

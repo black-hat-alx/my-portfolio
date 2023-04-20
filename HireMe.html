@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hire Me</title>
+	<link href="hirestyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<h1>Hire Me</h1>
+	<form onsubmit="sendEmail()" action="HirePhp.php" method="POST">
+		<div class="ptext">
+			<p>If you're interested in working with me, please fill out the form below and I'll get back to you as soon as possible.</p>
+			<hr><hr>
+		</div>
+		<label for="name">Name:</label>
+		<input type="text"  name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="phone">Mobile no.</label>
+		<input type="tel" id="phone" name="phone" required>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" rows="5" required></textarea>
+
+		<button type="submit">Send Message</button>
+	</form>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		function sendEmail(){
+			Email.send({
+    			Host : "smtp.gmail.com",
+    			Username : "meradesh.ind91@gmail.com",
+    			Password : "96088@alx",
+    			To : 'rrss957673@gmail.com',
+    			From : document.getElementById("email").value,
+    			Subject : "This is the subject",
+    			Body : document.getElementById("message").value
+			}).then(
+  			message => alert("Your responce successfully send !")
+			);
+		}
+	</script>
+</body>
+</html>

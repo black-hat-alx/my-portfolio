@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    min-height: 100vh;
+}
+.card-container-small-card-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .small-card {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .small-card:nth-child(1) {
+    transform: rotate(0deg) translate(200px) rotate(0deg);
+    transform-origin: center center;
+  }
+  
+  .small-card:nth-child(2) {
+    transform: rotate(40deg) translate(200px) rotate(-40deg);
+    transform-origin: center center;
+  }
+  
+  .small-card:nth-child(3) {
+    transform: rotate(80deg) translate(200px) rotate(-80deg);
+    transform-origin: center center;
+  }
+  .small-card:nth-child(4) {
+    transform: rotate(120deg) translate(200px) rotate(-120deg);
+    transform-origin: center center;
+  }
+  .small-card:nth-child(5) {
+    transform: rotate(160deg) translate(200px) rotate(-160deg);
+    transform-origin: center center;
+  }
+  .small-card:nth-child(6) {
+    transform: rotate(200deg) translate(200px) rotate(-200deg);
+    transform-origin: center center;
+  }
+  .small-card:nth-child(7) {
+    transform: rotate(240deg) translate(200px) rotate(-240deg);
+    transform-origin: center center;
+  }
+  .small-card:nth-child(8) {
+    transform: rotate(280deg) translate(200px) rotate(-280deg);
+    transform-origin: center center;
+  }
+  .small-card:nth-child(9) {
+    transform: rotate(320deg) translate(200px) rotate(-320deg);
+    transform-origin: center center;
+  }
+  .small-card:nth-child(10) {
+    transform: rotate(360deg) translate(200px) rotate(-360deg);
+    transform-origin: center center;
+  }
+  
+  /* ... more card styles ... */
+  
